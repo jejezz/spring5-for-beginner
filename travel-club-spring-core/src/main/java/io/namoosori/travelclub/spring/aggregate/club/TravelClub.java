@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class TravelClub extends Entity {
+public class  TravelClub extends Entity {
 	//
 	private static final int MINIMUM_NAME_LENGTH =  3;
 	private static final int MINIMUM_INTRO_LENGTH =  10;
