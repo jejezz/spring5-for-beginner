@@ -16,7 +16,6 @@ public class ClubServiceLogic implements ClubService {
 
     private ClubStore clubStore;
 
-    // bean 에 등록된 constuctor-arg 값에 설정된 class 를 생성한다.
     public ClubServiceLogic(ClubStore clubStore) {
         this.clubStore = clubStore;
     }
